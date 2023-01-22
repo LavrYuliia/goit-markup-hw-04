@@ -492,6 +492,7 @@ padding-bottom: 120px;
 .portfolio-card{
     padding: 32px 16px;
     border: 1px solid var(--accent);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-top: none;
 }
 .portfolio-link{
@@ -500,7 +501,6 @@ padding-bottom: 120px;
 }
 .portfolio-section-item:hover,
 .portfolio-section-item:focus{
-    border: 0.5px solid var(--light);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
